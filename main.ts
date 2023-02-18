@@ -5,6 +5,8 @@ radio.onReceivedString(function (receivedString) {
         cuteBot.turnleft()
     } else if (receivedString == "jobbra") {
         cuteBot.turnright()
+    } else if (receivedString == "tolass") {
+        cuteBot.backforward()
     } else {
         cuteBot.stopcar()
     }
